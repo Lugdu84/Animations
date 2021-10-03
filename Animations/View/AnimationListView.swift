@@ -49,6 +49,16 @@ struct AnimationListView: View {
                     label: {
                         Text("Counter")
                     })
+                NavigationLink(
+                    destination: LoadingView(),
+                    label: {
+                        Text("Loading View")
+                    })
+                NavigationLink(
+                    destination: LoadingView(),
+                    label: {
+                        Text("Loading View")
+                    })
             }
             Section(header: Text("Faire comme Apple")) {
                 
