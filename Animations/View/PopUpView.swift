@@ -45,14 +45,6 @@ struct PopUp: View {
             Text("Voici les informations supplémentaires de mon Pop Up")
                 .multilineTextAlignment(.center)
                 .padding()
-            Button {
-                withAnimation(.linear(duration: 0.5)) {
-                    show.toggle()
-                }
-            } label: {
-                Text("Cacher moi !")
-            }
-
         }
         .background(Color.blue.opacity(0.15))
             .cornerRadius(20)
