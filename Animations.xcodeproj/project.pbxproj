@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2829C51D270CB4280090967B /* PhotoLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829C51C270CB4280090967B /* PhotoLogoView.swift */; };
+		2829C51F270CBB550090967B /* SwipeToUnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829C51E270CBB550090967B /* SwipeToUnlockView.swift */; };
 		28335D1026FE3AF200B98B9E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28335D0F26FE3AF200B98B9E /* LoadingView.swift */; };
 		2854645426B07F9B000A3872 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2854645326B07F9B000A3872 /* SideMenuView.swift */; };
 		28639ADF26DFE3D00046841F /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28639ADE26DFE3D00046841F /* ProgressBarView.swift */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2829C51C270CB4280090967B /* PhotoLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLogoView.swift; sourceTree = "<group>"; };
+		2829C51E270CBB550090967B /* SwipeToUnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToUnlockView.swift; sourceTree = "<group>"; };
 		28335D0F26FE3AF200B98B9E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		2854645326B07F9B000A3872 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		28639ADE26DFE3D00046841F /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
@@ -167,6 +171,8 @@
 				28AF397026EFAFD8006928A9 /* CounterView.swift */,
 				28335D0F26FE3AF200B98B9E /* LoadingView.swift */,
 				28671741270A11E1006FB5DA /* PopUpView.swift */,
+				2829C51C270CB4280090967B /* PhotoLogoView.swift */,
+				2829C51E270CBB550090967B /* SwipeToUnlockView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2829C51D270CB4280090967B /* PhotoLogoView.swift in Sources */,
 				28EF839A26AB3125002A4BCA /* ContentView.swift in Sources */,
 				28671742270A11E1006FB5DA /* PopUpView.swift in Sources */,
 				2854645426B07F9B000A3872 /* SideMenuView.swift in Sources */,
@@ -309,6 +316,7 @@
 				28335D1026FE3AF200B98B9E /* LoadingView.swift in Sources */,
 				286DA63B26C6D8D000DC2EBB /* LikeTwitter.swift in Sources */,
 				28AF397126EFAFD8006928A9 /* CounterView.swift in Sources */,
+				2829C51F270CBB550090967B /* SwipeToUnlockView.swift in Sources */,
 				28CCD67826ADD93A00CF425A /* EffectView.swift in Sources */,
 				28EF83C826AB35CD002A4BCA /* TransitionView.swift in Sources */,
 				28EF83C326AB31BE002A4BCA /* AnimationListView.swift in Sources */,
@@ -474,7 +482,7 @@
 				DEVELOPMENT_TEAM = 3Y6T2CFAZ5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Animations/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -496,7 +504,7 @@
 				DEVELOPMENT_TEAM = 3Y6T2CFAZ5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Animations/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -14,7 +14,8 @@ struct AnimationListView: View {
             Section(header: Text("Modifications liées au SideMenu")) {
                 Text("J'ai récupéré les infos du SideMenu")
                     .foregroundColor(color)
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .font(.body)
+                    .multilineTextAlignment(.center)
             }
             Section(header: Text("Les basiques")) {
                 NavigationLink(
@@ -56,7 +57,11 @@ struct AnimationListView: View {
                     })
             }
             Section(header: Text("Faire comme Apple")) {
-                
+                NavigationLink(
+                    destination: PhotoLogoView(),
+                    label: {
+                        Text("Photo Logo")
+                    })
             }
         }
         .listStyle(GroupedListStyle())
