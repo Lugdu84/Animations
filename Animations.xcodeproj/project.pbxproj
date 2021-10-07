@@ -11,6 +11,7 @@
 		2829C51F270CBB550090967B /* SwipeToUnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829C51E270CBB550090967B /* SwipeToUnlockView.swift */; };
 		28335D1026FE3AF200B98B9E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28335D0F26FE3AF200B98B9E /* LoadingView.swift */; };
 		2854645426B07F9B000A3872 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2854645326B07F9B000A3872 /* SideMenuView.swift */; };
+		28612FF4270F4B4100B139F0 /* PassWordAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28612FF3270F4B4100B139F0 /* PassWordAnim.swift */; };
 		28639ADF26DFE3D00046841F /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28639ADE26DFE3D00046841F /* ProgressBarView.swift */; };
 		28671742270A11E1006FB5DA /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28671741270A11E1006FB5DA /* PopUpView.swift */; };
 		286DA63B26C6D8D000DC2EBB /* LikeTwitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DA63A26C6D8D000DC2EBB /* LikeTwitter.swift */; };
@@ -50,6 +51,7 @@
 		2829C51E270CBB550090967B /* SwipeToUnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToUnlockView.swift; sourceTree = "<group>"; };
 		28335D0F26FE3AF200B98B9E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		2854645326B07F9B000A3872 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		28612FF3270F4B4100B139F0 /* PassWordAnim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassWordAnim.swift; sourceTree = "<group>"; };
 		28639ADE26DFE3D00046841F /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 		28671741270A11E1006FB5DA /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		286DA63A26C6D8D000DC2EBB /* LikeTwitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeTwitter.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				28671741270A11E1006FB5DA /* PopUpView.swift */,
 				2829C51C270CB4280090967B /* PhotoLogoView.swift */,
 				2829C51E270CBB550090967B /* SwipeToUnlockView.swift */,
+				28612FF3270F4B4100B139F0 /* PassWordAnim.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				28671742270A11E1006FB5DA /* PopUpView.swift in Sources */,
 				2854645426B07F9B000A3872 /* SideMenuView.swift in Sources */,
 				28B5E29626CD73E100E38EFF /* TypingView.swift in Sources */,
+				28612FF4270F4B4100B139F0 /* PassWordAnim.swift in Sources */,
 				28EF83C626AB34C7002A4BCA /* AnimationView.swift in Sources */,
 				28EF839826AB3125002A4BCA /* AnimationsApp.swift in Sources */,
 				28335D1026FE3AF200B98B9E /* LoadingView.swift in Sources */,

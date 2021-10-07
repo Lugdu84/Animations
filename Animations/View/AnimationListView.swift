@@ -62,6 +62,11 @@ struct AnimationListView: View {
                     label: {
                         Text("Photo Logo")
                     })
+                NavigationLink(
+                    destination: SwipeToUnlockView(),
+                    label: {
+                        Text("Swipe to unlock")
+                    })
             }
         }
         .listStyle(GroupedListStyle())
